@@ -39,6 +39,9 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
 	/* / CSS / */
+  .navbar ul {
+    margin-left: 0px;
+}
 
 }
 
@@ -49,8 +52,22 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
 
+  /* .navbar ul {
+    margin-left: 0px;
+} */
+}
 	
-	}
+	
+
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    /* / CSS / */
+    
+    /* .navbar ul {
+      margin-left: 0px;
+  } */
+
+}
 
 	
 
