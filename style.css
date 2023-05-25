@@ -4751,6 +4751,7 @@ ul.gallery-filter li.active a {
 
 ul.news-listing>li {
     margin-bottom: 30px;
+    margin-left: inherit;
 }
 
 ul.news-listing>li .inner {
@@ -5897,6 +5898,7 @@ a.btn-circle:hover {
 
     .popular-cources ul.courses-list li {
         margin-bottom: 30px;
+        margin-left: inherit;
     }
 
     .popular-cources ul.courses-list li .cnt-block {
@@ -6749,6 +6751,7 @@ a.btn-circle:hover {
 
     .news-events ul li {
         margin-bottom: 30px;
+        margin-left: inherit;
     }
 
     .news-events ul li .cnt-block {
