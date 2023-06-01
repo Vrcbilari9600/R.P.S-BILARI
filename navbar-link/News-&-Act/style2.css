@@ -1,0 +1,88 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #810f28;
+    color: white;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+
+
+/* acheivements and rinking */
+
+
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #810f28;
+    color: white;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+th {
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 15px;
+    background-color: #02478a;
+    border-right: 1px solid #e2e2e2;
+}
+
+#curriculumtable {
+    font-size: 14px;
+    /* width: 670px; */
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0px;
+    line-height: 25px;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 20px;
+}
+
+#curriculumtable tbody td {
+    color: #000000;
+}

@@ -1841,7 +1841,7 @@ ul.our-strength.opt2 li .title {
     display: block;
     padding: 60px 0;
     min-height: 290px;
-    background: url(../images/inner-banner-bg.jpg) no-repeat center top / cover;
+    background: url(/home-pic/about-bg.jpg) no-repeat center top / cover;
 }
 
 .inner-banner .content {
@@ -2561,6 +2561,12 @@ ul.cert-list li span {
     font-size: 50px;
     /* color: #a4b1bc; */
     display: block;
+}
+
+.fa-clock{
+    display: block;
+    padding-bottom: 18px;
+    font-size: 50px;
 }
 
 .fa-book-bookmark {
