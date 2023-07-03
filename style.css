@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     /* font-size: 14px; */
-    color: #93a0a7;
+    /* color: #93a0a7; */
     line-height: 26px;
     background-color: #fff;
     margin: 0;
@@ -2563,7 +2563,7 @@ ul.cert-list li span {
     display: block;
 }
 
-.fa-clock{
+.fa-clock {
     display: block;
     padding-bottom: 18px;
     font-size: 50px;
@@ -4541,7 +4541,7 @@ ul.testimonials li p {
 
 .testimonial .wrapper {
     display: block;
-    max-width: 1012px;
+    /* max-width: 1012px; */
     position: relative;
 }
 
@@ -8430,3 +8430,79 @@ li {
 }
 
 /* ===================== End-Marketing-Section ====================== */
+
+
+/* .slide footer style css  */
+
+.testimonial {
+    display: block;
+    background: url(./home-pic/section-1-1\ school\ pic\ .jpg) no-repeat center top / cover;
+    text-align: center;
+    position: relative;
+    height: 226px;
+  }
+
+/* html,
+body {
+    position: relative;
+    height: 100%;
+} */
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+}
+
+.autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+}
